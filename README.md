@@ -50,6 +50,6 @@ Go to [the Anaconda webpage](https://www.anaconda.com/distribution/) and downloa
 
 ## Link to Course Information
 
-*	(Course Main page)[https://www.nbi.dk/~petersen/Teaching/AppliedStatistics2018.html ]
+*	[Course Main page](https://www.nbi.dk/~petersen/Teaching/AppliedStatistics2018.html)
 
 
