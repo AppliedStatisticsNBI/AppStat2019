@@ -1,6 +1,6 @@
-# Applied Statistics 2019
+# Applied Statistics 2019 - Code Repository
 
-## Code Repository for the class
+This git is a repository of the code that will be used in the Applied Statistics code 2019 edition.
 
 
 ## Getting Started
