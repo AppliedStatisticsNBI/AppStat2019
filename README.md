@@ -7,7 +7,7 @@ This git is a repository of the code that will be used in the Applied Statistics
 
 The following instructions will help you install the relevant software that will be used in the course.
 
-Note that you have two options for installing and running the applied statistics notebooks. The first option involves running the code on ERDA, a KU-based server platform that has the advantage of having a uniform software environment for everyone. If you are not enrolled as a KU student, you should contact [Troels](mailto:petersen@nbi.dk) to get access to the ERDA servers. The second option is to install everything on your laptop, using the anaconda environment as a standard set of python libraries. 
+Note that you have two options for installing and running the applied statistics notebooks. The first option involves running the code on [ERDA](https://erda.ku.dk), a KU-based server platform that has the advantage of having a uniform software environment for everyone. If you are not enrolled as a KU student, you should contact [Troels](mailto:petersen@nbi.dk) to get access to the ERDA servers. The second option is to install everything on your laptop, using the anaconda environment as a standard set of python libraries. 
 
 We highly recommend that you use __BOTH__ methods throughout the course. Having a local copy of the exercices can become very handy when the ERDA servers are down (for maintenance or other reasons).
 
