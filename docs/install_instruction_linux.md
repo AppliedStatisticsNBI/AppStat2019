@@ -1,46 +1,53 @@
 ## Installation instruction - Linux system
 
-These steps have been tested on a Linux Mint 18, a variant of the Ubuntu flavour of linux systems.
+These steps have been tested on a Linux Mint 18, a variant of the Ubuntu flavour of linux systems. Most 
 
 
+* Open a __terminal window__.
 
-<details><summary>From your ERDA homepage, click on the <b>jupyter</b> option in the side menu</summary>
-<img src="../images/ERDA_step1.png"
-	title="ERDA main menu"/>
+* If you don't have git installed on your laptop, install it by following [these instructions](https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-linux-md)
+
+* Clone the Applied statistics repository using the command `git clone https://github.com/bourdeet/AppStat2019.git ./AppStat2019_local/`. Feel free to choose another name for your folder
+
+* You now have a local copy of the repository
+
+### Installing the Anaconda environment
+
+In order to run the exercices from the course, you will need to setup and install __anaconda for python 3__. 
+
+
+<details><summary>On the [anaconda website](https://www.anaconda.com/distribution/), download the python 3.7 version of anaconda. ake sure you are downloading the version that matches your <b>processor type </b> (you should download the x86 installer)</summary>
+<img src="../images/anaconda_install1.png"/>
+</details>
+
+In the folder where you downloaded the installation script, run the latter using `bash Anaconda3-2019.10-Linux-x86_64.sh`. Type `enter` to start the process
+<details><summary>Click here for image </summary>
+<img src="../images/anaconda_install2.png"/>
 </details>
 
 
-<details><summary>Start a terminal session by clicking the <b>Start DAG</b> button</summary>
-<img src="../images/ERDA_step2.png"
-	title="ERDA main menu"/>
+
+Scroll through the licence agreement by pressing the return key. At the end, type `yes` to accept the license terms and conditions.
+<details><summary>Click here for image </summary>
+<img src="../images/anaconda_install3.png"/>
+</details>
+
+
+Anaconda provides you with a default path where it will install the relevant software. It is recommended that you change this directory name, like the example shown here. Once you have entered a new path name, type the return key and the installation will proceed.
+<details><summary>Click here for image </summary>
+<img src="../images/anaconda_install4.png"/>
 </details>
 
 
 
-<details><summary>To spawn the correct environment for the course, select the option <b>Statistics Notebook with Python</b> </summary>
-<img src="/images/ERDA_step3.png"
-	title="ERDA main menu"/>
+Once the installation is finished, you will be asked if you ant to initialize the environment. __Type `no` to this step__.
+<details><summary>Click here for image </summary>
+<img src="../images/anaconda_install5.png"/>
 </details>
 
 
-
-<details><summary>Open the <b>Terminal</b> option </summary>
-<img src="/images/ERDA_step4.png"
-	title="ERDA main menu"/>
-</details>
+Move to your home folder by typing `cd`. Open a file named `.bashrc`, and add the following line at the bottom of the file:
+`alias anaconda3="export PATH=/home/username/some_path_name/bin:$PATH;source /home/username/some_path_name/bin/activate"`
 
 
-You should now have a terminal window opened in your screen. If you type in the command `ll`, you should see a list of folder in your space. Move into the __work__ folder by typing the command `cd work`.
-
-<details><summary>Click here to see the image</summary>
-<img src="/images/ERDA_step5.png"
-	title="ERDA main menu"/>
-</details>
-
-
-Once you are in your __work__ folder, make yourself a local copy of the code repository by typing the command `git clone https://github.com/bourdeet/AppStat2019.git ./AppStat2019_local/`. If you list the content of your __work__ directory, you should now see a local copy of the code appear on your machine.
-
-<details><summary>Click here to see the image</summary>
-<img src="/images/ERDA_step6.png"
-	title="ERDA main menu"/>
-</details>
+Close your terminal and open a new one. When you type in `anaconda3`, your new anaconda environment should load. You are then ready to work on your notebooks.
