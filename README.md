@@ -72,35 +72,20 @@ Once you are in your __work__ folder, make yourself a local copy of the code rep
 
 Given the wide range of operating systems available out there, we cannot guarantee that the instructions above will work on _all_ platforms. As of now, __the instructions below have been tested on the following systems:__
 
-*	Ubuntu 18 / Linux Mint 19
-*	Windows 10
-*	MacOS Mojave
+* [__Instructions for Linux__](./docs/install_instruction_linux.md)
 
-#### Install Anaconda
+* [__Instructions for Windows 10__](./docs/install_instruction_windows10.md)
 
-Go to [the Anaconda webpage](https://www.anaconda.com/distribution/) and download the python 3.7 version of the tools.
-
-* Once you've downloaded the installer, execute it on your laptop, and go through the installation steps
+* [__Instructions for MacOs Mojave__](./docs/install_instruction_macos_mojave.md)
 
 
-#### Install pyMinuit
+### Option C. Manually downloading the course content
+---
 
 
-
-#### Clone the Applied Statistics Repository
-
-
-#### Open your First Notebook
 
 ---
 
 ## Link to Course Information
 
 *	[Course Main page](https://www.nbi.dk/~petersen/Teaching/AppliedStatistics2018.html)
-
-
-[erda1]: https://github.com/bourdeet/AppStat2019/tree/master/images/ERDA_step1.png
-[erda2]: https://github.com/bourdeet/AppStat2019/tree/master/images/ERDA_step2.png
-[erda3]: https://github.com/bourdeet/AppStat2019/tree/master/images/ERDA_step3.png
-[erda4]: https://github.com/bourdeet/AppStat2019/tree/master/images/ERDA_step4.png
-[erda5]: https://github.com/bourdeet/AppStat2019/tree/master/images/ERDA_step5.png
