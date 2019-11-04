@@ -17,25 +17,43 @@ We highly recommend that you use __BOTH__ methods throughout the course. Having 
 
 #### Clone the Applied Statistics Repository
 
-* From your ERDA homepage, click on the __jupyter__ option in the side menu
 <p class="tab">
-<details><summary>screen capture</summary>
+<details><summary>From your ERDA homepage, click on the __jupyter__ option in the side menu</summary>
 <img src="/images/ERDA_step1.png"
 	title="ERDA main menu"/>
 </details>
 </p>
 
-* 
-![alt text][erda2]
 
-* 
-![alt text][erda3]
+<p class="tab">
+<details><summary>From your ERDA homepage, click on the __jupyter__ option in the side menu</summary>
+<img src="/images/ERDA_step2.png"
+	title="ERDA main menu"/>
+</details>
+</p>
 
-* 
-![alt text][erda4]
 
-* 
-![alt text][erda5]
+<p class="tab">
+<details><summary>From your ERDA homepage, click on the __jupyter__ option in the side menu</summary>
+<img src="/images/ERDA_step3.png"
+	title="ERDA main menu"/>
+</details>
+</p>
+
+
+<p class="tab">
+<details><summary>From your ERDA homepage, click on the __jupyter__ option in the side menu</summary>
+<img src="/images/ERDA_step4.png"
+	title="ERDA main menu"/>
+</details>
+</p>
+
+<p class="tab">
+<details><summary>From your ERDA homepage, click on the __jupyter__ option in the side menu</summary>
+<img src="/images/ERDA_step5.png"
+	title="ERDA main menu"/>
+</details>
+</p>
 
 
 #### Open your First Notebook
