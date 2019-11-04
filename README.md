@@ -12,6 +12,7 @@ Note that you have two options for installing and running the applied statistics
 We highly recommend that you use __BOTH__ methods throughout the course. Having a local copy of the exercices can become very handy when the ERDA servers are down (for maintenance or other reasons).
 
 ### Option A. Running things on ERDA
+---
 
 #### Get Registered on ERDA (email [Troels](mailto:petersen@nbi.dk) to get registered)
 
@@ -65,9 +66,9 @@ Once you are in your __work__ folder, make yourself a local copy of the code rep
 
 #### Open your First Notebook
 
----
 
 ### Option B. Running things on your laptop
+---
 
 Given the wide range of operating systems available out there, we cannot guarantee that the instructions above will work on _all_ platforms. As of now, __the instructions below have been tested on the following systems:__
 
