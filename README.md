@@ -18,14 +18,12 @@ We highly recommend that you use __BOTH__ methods throughout the course. Having 
 #### Clone the Applied Statistics Repository
 
 * From your ERDA homepage, click on the __jupyter__ option in the side menu
-
+<p class="tab">
 <details><summary>screen capture</summary>
-
-
 <img src="/images/ERDA_step1.png"
 	title="ERDA main menu"/>
-
 </details>
+</p>
 
 * 
 ![alt text][erda2]
