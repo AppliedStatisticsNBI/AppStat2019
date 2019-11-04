@@ -51,3 +51,15 @@ Move to your home folder by typing `cd`. Open a file named `.bashrc`, and add th
 
 
 Close your terminal and open a new one. When you type in `anaconda3`, your new anaconda environment should load. You are then ready to work on your notebooks.
+
+
+### installing the iminuit minimizer tool
+
+Open a new terminal, and load the anaconda environment by typing `anaconda3`. To install iminuit, type in the command: `conda install -c anaconda iminuit`. A prompt such as the one shown below will ask you to install the package, along with its dependencies (ie. additional software that iminuit needs to run properly)
+
+<details><summary>Click here for image </summary>
+<img src="../images/conda_install_iminuit.png"/>
+</details>
+
+
+Type in `y` and wait for the installation to complete. You should now be able to run the course notebooks.
