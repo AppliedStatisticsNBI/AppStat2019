@@ -57,7 +57,54 @@ Click on __Finish__ to complete the installation
 
 ## Cloning the git repository
 
-Download [git for windows]()
+Download [git for windows](https://git-scm.com/download/win) and download the installer for your system (32-bit or 64-bit)
+<details><summary>Click here for a picture</summary>
+<img src="../images/git_windows_1.png"/>
+</details>
+
+Run the installer. Click on Next
+<details><summary>Click here for a picture</summary>
+<img src="../images/git_windows_2.png"/>
+</details>
+
+Select a location where to install git (it is recommended to use the default path)
+<details><summary>Click here for a picture</summary>
+<img src="../images/git_windows_3.png"/>
+</details>
+
+In the select Components window, leave the options checked to default. Make sure that __Git Bash__ is checked
+<details><summary>Click here for a picture</summary>
+<img src="../images/git_windows_4.png"/>
+</details>
+
+Keep clicking on __Next__ through the various options, leaving them at their default values.
+<details><summary>Click here for a picture</summary>
+  <img src="../images/git_windows_5.png"/>
+  <img src="../images/git_windows_6.png"/>
+  <img src="../images/git_windows_8.png"/>
+  <img src="../images/git_windows_9.png"/>
+  <img src="../images/git_windows_10.png"/>
+  <img src="../images/git_windows_11.png"/>
+  <img src="../images/git_windows_12.png"/>
+</details>
+
+
+Keep clicking on __Install__. Leave the option on that window unchecked. 
+<details><summary>Click here for a picture</summary>
+  <img src="../images/git_windows_13.png"/>
+</details>
+
+
+Keep clicking on __Finish__ after the process is completed.
+<details><summary>Click here for a picture</summary>
+  <img src="../images/git_windows_14.png"/>
+</details>
+
+
+
+
+
+
 
 
 
