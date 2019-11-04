@@ -53,11 +53,11 @@ Click on __Finish__ to complete the installation
 </details>
 
 
+---
 
+## Cloning the git repository
 
-
-
-
+Download [git for windows]()
 
 
 
