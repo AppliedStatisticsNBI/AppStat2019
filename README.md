@@ -121,4 +121,4 @@ __Important note regarding a manual download:__ If you choose this method to get
 
 ## Link to Course Information
 
-*	[Course Main page](https://www.nbi.dk/~petersen/Teaching/AppliedStatistics2018.html)
+*	[Course Main page](https://www.nbi.dk/~petersen/Teaching/AppliedStatistics2019.html)
