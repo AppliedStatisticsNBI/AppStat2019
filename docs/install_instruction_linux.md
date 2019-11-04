@@ -1,6 +1,6 @@
 ## Installation instruction - Linux system
 
-These steps have been tested on a Linux Mint 18, a variant of the Ubuntu flavour of linux systems. Most 
+These steps have been tested on a Linux Mint 18, a variant of the Ubuntu flavour of linux systems.
 
 
 * Open a __terminal window__.
