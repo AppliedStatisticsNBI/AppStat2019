@@ -19,11 +19,11 @@ We highly recommend that you use __BOTH__ methods throughout the course. Having 
 
 * From your ERDA homepage, click on the __jupyter__ option in the side menu
 
-<details>
+<details><summary>screen capture</summary>
 
 
 <img src="/images/ERDA_step1.png"
-	title="ERDA main menu" width="150" height="100" />
+	title="ERDA main menu"/>
 
 </details>
 
