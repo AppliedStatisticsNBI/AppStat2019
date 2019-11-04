@@ -115,5 +115,5 @@ The previous steps opens a terminal window at the location you created. In that 
 `git clone https://github.com/AppliedStatisticsNBI/AppStat2019.git .`
 
 <details><summary>Click here for a picture</summary>
-  <img src="../images/git_windows_16.png"/>
+  <img src="../images/git_windows_gitterminal.png"/>
 </details>
