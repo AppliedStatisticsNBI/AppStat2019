@@ -19,7 +19,7 @@ We highly recommend that you use __BOTH__ methods throughout the course. Having 
 
 * From your ERDA homepage, click on the __jupyter__ option in the side menu
 
-![alt text](https://github.com/bourdeet/AppStat2019/tree/master/images/ERDA_step1.png)
+![alt text](/images/ERDA_step1.png)
 
 * 
 ![alt text][erda2]
