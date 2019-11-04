@@ -1,4 +1,6 @@
 
+[return to the main page](../README.md)
+
 # AppStat2019 - Instructions for installing the repository locally
 ---
 

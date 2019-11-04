@@ -1,3 +1,7 @@
+
+[Back to main installation page](README.md)
+
+
 ## Installation instruction - Windows
 
 These steps have been tested on an up-to-date version of Windows 10 (last updated Nov. 4 2019).
