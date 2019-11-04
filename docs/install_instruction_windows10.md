@@ -9,8 +9,56 @@ These steps have been tested on an up-to-date version of Windows 10 (last update
 On the [anaconda website](https://www.anaconda.com/distribution/), download the python 3.7 version of the anaconda installer for windows. __Make sure to select the right file for your system (32-bit or 64-bit)__
 
 <details><summary>Click here for a picture</summary>
-<img src="../images/anaconda_install1.png"/>
+<img src="../images/anaconda_windows_1.png"/>
 </details>
+
+Launch the installer program, and click __next__.
+<details><summary>Click here for a picture</summary>
+<img src="../images/anaconda_windows_2.png"/>
+</details>
+
+Click on __I agree__ at the bottom of the licence.
+<details><summary>Click here for a picture</summary>
+<img src="../images/anaconda_windows_3.png"/>
+</details>
+
+
+Select the __Just me__ option.
+<details><summary>Click here for a picture</summary>
+<img src="../images/anaconda_windows_4.png"/>
+</details>
+
+
+Select the folder where you want to install anaconda and click on __Next__.
+<details><summary>Click here for a picture</summary>
+<img src="../images/anaconda_windows_5.png"/>
+</details>
+
+
+Make sure that both options are unchecked and click __install__.
+<details><summary>Click here for a picture</summary>
+<img src="../images/anaconda_windows_6.png"/>
+</details>
+
+
+Once the installation finishes, click on __Next__.
+<details><summary>Click here for a picture</summary>
+<img src="../images/anaconda_windows_7.png"/>
+</details>
+
+
+Click on __Finish__ to complete the installation
+<details><summary>Click here for a picture</summary>
+<img src="../images/anaconda_windows_8.png"/>
+</details>
+
+
+
+
+
+
+
+
 
 
 
