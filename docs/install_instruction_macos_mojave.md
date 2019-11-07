@@ -14,7 +14,7 @@ Go to the [anaconda website] and download the __Command line installer__ for Mac
 
 
 <details><summary>Click to see snapshot</summary>
-<img src="../images/anaconda_install_mac1.png"/>
+<img src="../images/anaconda_install_mac_1.png"/>
 </details>
 
 
