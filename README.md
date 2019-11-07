@@ -4,7 +4,7 @@ This git is a repository of the code that will be used in the Applied Statistics
 
 
 ## Getting Started
----
+
 
 The following instructions will help you install the relevant software that will be used in the course.
 
@@ -13,11 +13,14 @@ Note that you have two options for installing and running the applied statistics
 We highly recommend that you use __BOTH__ methods throughout the course. Having a local copy of the exercices can become very handy when the ERDA servers are down (for maintenance or other reasons).
 
 ### Option A. Running things on ERDA
+---
+
 
 * [__The instructions for using ERDA are available here__](./docs/install_instruction.erda.md)
 
 ### Option B. Running things on your laptop
 ---
+
 If you want to run things on your local computer, you will have to install additional software to be able to properly run the notebooks. 
 
 Given the wide range of operating systems available out there, we cannot guarantee that the instructions above will work on _all_ platforms. As of now, __the instructions below have been tested on the following systems:__
