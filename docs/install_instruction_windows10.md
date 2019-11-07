@@ -2,13 +2,13 @@
 [Back to main installation page](README.md)
 
 
-# Installation instruction - Windows
+## Installation instruction - Windows
 
 ### __NOTE: WINDOWS INSTRUCTIONS ARE UNLIKELY TO WORK ON OLDER VERSIONS OF WINDOWS. IF YOU DON'T HAVE WINDOWS 10, WE RECOMMEND YOU DO YOUR WORK ON ERDA INSTEAD OF YOUR OLD LAPTOP__
 
 
 
-## Installing Anaconda on Windows 10
+### Installing Anaconda on Windows 10
 ---
 These steps have been tested on an up-to-date version of Windows 10 (last updated Nov. 4 2019).
 
@@ -58,9 +58,12 @@ Click on __Finish__ to complete the installation
 <img src="../images/anaconda_windows_8.png"/>
 </details>
 
+### Installing iminuit
+
+Iminuit should already be installed on the windows version of anaconda.
 
 
-## Cloning the git repository
+### Cloning the git repository
 ---
 Download [git for windows](https://git-scm.com/download/win) and download the installer for your system (32-bit or 64-bit)
 <details><summary>Click here for a picture</summary>
