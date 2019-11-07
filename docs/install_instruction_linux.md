@@ -1,3 +1,6 @@
+[Back to main page](../README.md)
+
+
 ## Installation instruction - Linux system
 
 These steps have been tested on a Linux Mint 18, a variant of the Ubuntu flavour of linux systems.

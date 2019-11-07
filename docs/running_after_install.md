@@ -1,5 +1,6 @@
 [Back to main page](../README.md)
 
+
 ## Running things after installation
 
 At this point, you have successfully installed anaconda, installed `iminuit` in your anaconda environment and cloned the applied statistics code repository somewhere on your laptop or on ERDA. Now, you want to open a notebook and start working. Follow these steps to find out how!
@@ -33,7 +34,7 @@ At this point, you have successfully installed anaconda, installed `iminuit` in 
 
 
 ## Updating the code repository
----
+
 
 As the week pass by, additional exercices will be periodically added to the code repository. To update your local copy of the code:
 

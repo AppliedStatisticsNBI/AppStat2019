@@ -1,5 +1,5 @@
 
-[Back to main installation page](README.md)
+[Back to main page](../README.md)
 
 
 ## Installation instruction - Windows
