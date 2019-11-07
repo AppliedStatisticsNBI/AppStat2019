@@ -16,7 +16,7 @@ We highly recommend that you use __BOTH__ methods throughout the course. Having 
 ---
 
 
-* [__The instructions for using ERDA are available here__](./docs/install_instruction.erda.md)
+* [__The instructions for using ERDA are available here__](./docs/install_instruction_erda.md)
 
 ### Option B. Running things on your laptop
 ---
