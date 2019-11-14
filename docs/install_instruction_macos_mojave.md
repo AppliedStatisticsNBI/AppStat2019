@@ -32,7 +32,7 @@ These instructions have been tested on a macbook pro from 2015 running the Mojav
 * Anaconda will now install itself. At the end of the process, you will be asked if you want to initialize anaconda. __Type "No"__
 
 
-* Move back to your home directory by typing `cd $HOME`. Open a file called `.bash-profile`, and type in at the bottom of the file the following line:
+* Move back to your home directory by typing `cd $HOME`. Open a file called `.bash_profile`, and type in at the bottom of the file the following line:
 
   `alias anaconda3=". /path/where/you/saved/anaconda3/etc/profile.d/conda.sh; conda activate base"`
 
