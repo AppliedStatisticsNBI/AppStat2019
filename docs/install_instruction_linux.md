@@ -1,17 +1,11 @@
+[Back to main page](../README.md)
+
+
 ## Installation instruction - Linux system
 
 These steps have been tested on a Linux Mint 18, a variant of the Ubuntu flavour of linux systems.
 
 
-* Open a __terminal window__.
-
-* If you don't have git installed on your laptop, install it by following [these instructions](https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-linux-md)
-
-* Clone the Applied statistics repository using the command 
-`git clone https://github.com/AppliedStatisticsNBI/AppStat2019.git ./AppStat2019_local/`. 
- Feel free to choose another name for your folder
-
-* You now have a local copy of the repository
 
 ### Installing the Anaconda environment
 
@@ -65,3 +59,19 @@ Open a new terminal, and load the anaconda environment by typing `anaconda3`. To
 
 
 Type in `y` and wait for the installation to complete. You should now be able to run the course notebooks.
+
+
+### Clone the course repository
+
+* Open a __terminal window__.
+
+* If you don't have git installed on your laptop, install it by following [these instructions](https://gist.github.com/derhuerst/1b15ff4652a867391f03#file-linux-md)
+
+* Clone the Applied statistics repository using the command 
+`git clone https://github.com/AppliedStatisticsNBI/AppStat2019.git ./AppStat2019_local/`. 
+ Feel free to choose another name for your folder
+
+* You now have a local copy of the repository
+
+
+__Make sure you run the command__ `anaconda3` before running a notebook.
