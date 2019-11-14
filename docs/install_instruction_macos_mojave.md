@@ -23,7 +23,7 @@ These instructions have been tested on a macbook pro from 2015 running the Mojav
 
 * Once in the terminal, run the __anaconda installer__, by typing
 
-  `bash $HOME/Downloads/Anaconda3-2019.10-MacOSX-x86-64.sh`
+  `bash $HOME/Downloads/Anaconda3-2019.10-MacOSX-x86_64.sh`
 
 
 * Scroll through the terms of the license and type `yes` to accept. You will be asked to define a path where anaconda can be installed. Feel free to use the pathname you want (we would suggest `/Users/your_username/AppliedStatistics/anaconda3/`)
