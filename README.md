@@ -2,7 +2,6 @@
 
 This git is a repository of the code that will be used in the Applied Statistics code 2019 edition.
 
-
 ## Getting Started
 
 
