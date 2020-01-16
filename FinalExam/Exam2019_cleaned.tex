@@ -1,0 +1,245 @@
+\documentclass[11pt]{article}
+
+\usepackage[latin1]{inputenc}
+\usepackage[danish]{babel}        % Use English headings, date format.
+\usepackage{a4wide}               % A4 (DIN format).
+\usepackage[hidelinks]{hyperref}  % Enable direct links in PDF (e.g. for data sets)
+
+\textheight=1.10\textheight
+\textwidth=1.10\textwidth
+\hoffset=-0.05\textwidth
+\leftmargin=-0.18\textwidth
+\headsep=0.0pt
+\headheight=0.0pt
+
+\vfuzz2pt   % Don't report over-full v-boxes if over-edge is small
+\hfuzz10pt  % Don't report over-full h-boxes if over-edge is smallish
+
+\newcommand{\half}{\mbox{$\frac{1}{2}$}}
+
+\begin{document}
+%\pagestyle{empty}
+
+%----------------------------------------------------------------------------
+\noindent
+University of Copenhagen \hfill
+Niels Bohr Institute, \today \par
+\vspace{-2ex}
+\noindent
+\hrulefill
+
+\vspace{1ex}
+\begin{center}
+{\bf {\Huge Applied Statistics}}\\
+\vspace{1ex}
+{\large Exam in applied statistics 2019/20}
+\end{center}
+
+%----------------------------------------------------------------------------
+\vspace{0ex}
+\noindent
+This take-home exam was distributed Thursday the 16th of January 2020 08:00, and a solution in PDF format must be submitted at \texttt{www.eksamen.ku.dk} by 18:00 sharp Friday the 17th of January 2020, along with all code used to work out your solutions (as appendix). Links to data files can be found on the course webpage. Working in groups or discussing the problems with others is {\bf NOT} allowed.
+
+\vspace{-1ex}
+\begin{center}
+  Good luck and thanks for all your hard work, Troels, Etienne, Sebastien, Giulia, John \& Nikki.
+\end{center}
+
+%----------------------------------------------------------------------------
+
+\noindent
+\hrulefill\\
+\emph{Science is not truth. It is the current summary of our experiences.} \hfill [Jens Martin Knudsen, 1930-2005]\\[-2ex]
+
+%----------------------------------------------------------------------------
+\vspace{-2ex}
+\noindent
+\hrulefill
+
+\vspace{4ex}
+\noindent
+{\bf I -- Distributions and probabilities:}
+\begin{description}
+\item[1.1] (4 points) Assuming the ``El Clasico'' football match is an even game ($p = 0.5$),
+  what is the probability, that the score after 144 non-draw league games is exactly even?
+%
+\item[1.2] (4 points)
+  Brad Pitt and Edward Norton are shooting golf balls at a window with $p_{\mbox{\tiny hit}} = 0.054$
+  chance of hitting. How many golf balls do they need to be 90\% sure of hitting the window?
+\end{description}
+
+
+%----------------------------------------------------------------------------
+
+\vspace{2ex}
+\noindent
+{\bf II -- Error propagation:}
+\begin{description}
+\item[2.1] (10 points)
+  The Hubble constant $h$ has been measured by seven independent experiments:
+  $73.5 \pm 1.4$,         % Reiss (2019, Messier 106 black hole and eclipsing binaries)
+  $74.0 \pm 1.4$,         % Hubble/SHoES (2019)
+  $73.3 \pm 1.8$,         % H0LiCOW (2019, six quasars)
+  $75.0 \pm 2.0$,         % Cosmicflows-3 (2016)
+  $67.6 \pm 0.7$,         % BOSS (2016)
+  $70.4 \pm 1.4$, and     % WMAP (2010, 7 year from LambdaCDM fit)
+  $67.66 \pm 0.42$        % Planck (2018)
+  in (km/s)/Mpc.
+  \vspace*{-1ex}
+  \begin{itemize}
+    \item What is the weighted average of $h$? Do the values agree with each other?
+    \item The first four measurements are based on a different method than the last three.
+      Do the values from the same method agree with each other?
+  \end{itemize}
+%
+\item[2.2] (10 points) 
+  Using Coulomb's law you want to measure a charge, $q_0 = F d^2 / k_e Q$. Assume that Coulomb's constant
+  $k_e = 8.99 \times 10^9$ N$\mbox{m}^2$/$\mbox{C}^2$ and the instrument charge $Q = 10^{-9}~\mbox{C}$ are known.
+  \vspace*{-1ex}
+  \begin{itemize}
+    \item Given force $F = 0.87 \pm 0.08~\mbox{N}$ and distance $d = 0.0045 \pm 0.0003~\mbox{m}$, what is $q_0$?
+    \item Where does the largest contribution to the uncertainty on $q_0$ come from? $F$ or $d$?
+    \item If you could measure $F$ and $d$ with uncertainties $\pm\, 0.01~\mbox{N}$ and $\pm\, 0.0001~\mbox{m}$,
+      respectively, at what distance should you expect to measure the charge in question $q_0$ most precisely?
+  \end{itemize}
+%
+\item[2.3] (12 points)
+  Sub-saharan humans tend not to have any Neanderthal DNA, while all others have a few percent. The file:
+  \href{http://www.nbi.dk/~petersen/data\_NeanderthalDNA.txt}{\bf www.nbi.dk/$\sim$petersen/data\_DNAfraction.txt}
+  contains the fraction of Neanderthal DNA for 2318 Danish high school students.
+  \vspace*{-1ex}
+  \begin{itemize}
+    \item Plot the distribution of Neanderthal DNA fraction, and calculate the mean and RMS.
+    \item Do you find any mismeasurements or outliers from the main population in the data?
+    \item Fit the main population data with distributions of your choice, and comment on the fits.
+  \end{itemize}
+\end{description}
+
+
+%----------------------------------------------------------------------------
+
+\noindent
+\hrulefill\\
+\emph{Statistics like veal pies, are good if you know the person that made them, and are sure of the ingredients.}
+  \phantom{} \hfill [Harvard President Lawrence Lowell, 1856-1943]\\[-2ex]
+
+
+
+%----------------------------------------------------------------------------
+\newpage
+
+\noindent
+{\bf III -- Monte Carlo:}
+\begin{description}
+\vspace*{-1ex}
+\item[3.1] (15 points) Assume that the outcome of an experiment can be described by
+  first drawing a random number $x$ from the distribution $f(x) = C (c_1 + x^{c_2})$ for $x \in [1, 3]$,
+  where $c_1 = 1$ and $c_2 = 2$ and then using this $x$ value to calculate $y = x \exp(-x)$.
+  \begin{itemize}
+    \item What is the value of $C$? And what is the mean and RMS of $f(x)$?
+    \item What method(s) can be used to produce random numbers according to $f(x)$? Why?
+    \item Produce 5000 random numbers distributed according to $f(x)$ and $y$ and plot these.
+    \item What is the linear (Pearson) correlation betweeen the produced $x$ and $y$ values?
+    \item Fit the distribution of the produced $x$ values to $f(x)$, with $c_1$ and $c_2$ as parameters.
+    \item How many measurements of $x$ would you need, in order to determine $c_1$ and $c_2$,
+      respectively, with a precision better than 1\% of their values?
+  \end{itemize}
+\end{description}
+
+
+%----------------------------------------------------------------------------
+
+\noindent
+{\bf IV -- Statistical tests:}
+\begin{description}
+\item[4.1] (15 points)
+  The length ($l$ in $\mu$m) and transparency ($T$) of two types of cells ($P$ and $E$) can be found for
+  4690 cells in the file:
+  \href{http://www.nbi.dk/~petersen/data\_Cells.txt}{\bf www.nbi.dk/$\sim$petersen/data\_Cells.txt}.
+  \vspace*{-1ex}
+  \begin{itemize}
+    \item Selecting $P$-cells by requiring $l < 9 \,\mu$m what is the rate of type I and type II errors?
+    \item Which of the two variables $l$ and $T$ is best at distinguishing between $P$ and $E$ cells?
+    \item Separate $P$ and $E$ cells using $l$ and/or $T$, and draw a ROC curve of your result.
+  \end{itemize}
+\end{description}
+
+
+%----------------------------------------------------------------------------
+
+\noindent
+{\bf V -- Fitting data:}
+\begin{description}
+\begin{minipage}[l]{0.57\textwidth}
+\item[5.1] (15 points)
+  Kepler's third law states that ``the square of the orbital period ($T$) of a planet is directly
+  proportional to the cube of the semi-major axis ($a$) of its orbit''.\\
+  The table lists values for $T$ in days (known very precisely) and $a$ in AU (= 149597870700\,m)
+  at the time of the first measurement (in 1778) of the gravitational constant
+  $G_{1778} = (7.5 \pm 1.0) \times 10^{-11} m^3 kg^{-1} s^{-2}$.
+\end{minipage}%
+\begin{minipage}[r]{0.0\textwidth}
+  \hfill
+\end{minipage}%
+\begin{minipage}[r]{0.42\textwidth}
+  \vspace*{-4ex}
+  \begin{center}
+  \small
+  \begin{tabular}{l|rr}
+    \hline
+    \hline
+    Planet	&$T$ (days)    &$a$ (AU)	  \\
+    \hline
+    Mercury	&   87.77   	  &$0.389 \pm 0.011$      \\
+    Venus	&  224.70	  &$0.724 \pm 0.020$      \\
+    Earth	&  365.25         &1 (definition)	  \\
+    Mars	&  686.95	  &$1.524 \pm 0.037$      \\
+    Jupiter	& 4332.62	  &$5.20 \pm 0.13$        \\
+    Saturn	&10759.2	  &$9.51 \pm 0.34$        \\
+    \hline
+    \hline
+  \end{tabular}
+  \end{center}
+\end{minipage}%
+  \vspace*{-1ex}
+  \begin{itemize}
+    \item Plot the five non-Earth values and fit these to Kepler's third Law: $a = C \times T^{2/3}$.
+    \item In this fit, which planet seems to follow this relation least well? Is it critical?
+    \item From the value you obtain for $C$ and 
+       $G_{1778}$ estimate the solar mass $M = 4\pi^2 C^3 / G$ in kg.
+    \item Expand the fit to Kepler's third law by further adding two parameters:
+      $T = C \times (a^{c_1} + c_2)$. Does this formula match the data well?
+      Are the two additional parameters necessary?
+  \end{itemize}
+\item[5.2] (15 points) 
+  Searching for slow moving (compared to speed of light) particles at CERN's LHC accelerator, you are calibrating
+  the speed measurement $\beta = v/c$ of the candidate particles, using a control sample of particles known to
+  (effectively) travel at the speed of light, i.e.\ $\beta = 1$.\\
+  The file
+  \href{http://www.nbi.dk/~petersen/data\_BetaCalibration.txt}{\bf www.nbi.dk/$\sim$petersen/data\_BetaCalibration.txt}
+  contains 4000 control sample measurements of initial speed estimate ($\beta_{\mbox{\tiny init}}$), energy ($E$) in GeV,
+  angle with respect to the beam axis ($\theta$) in radians, and time since start of experiment ($T$) in seconds,
+  respectively.
+  \vspace{-1.0ex}
+  \begin{itemize}
+    \item What is the resolution of $\beta_{\mbox{\tiny init}}$? And is it consistent with a Gaussian distribution?
+    \item Is the distribution in $\theta$ consistent with being symmetric around $\pi/2$?
+    \item Test if the mean of $\beta_{\mbox{\tiny init}}$ is constant as a function of energy.
+    \item Due to shifts in timing, the central value of $\beta_{\mbox{\tiny init}}$ shifted with time $T$,
+      smearing the resolution. Calibrate $\beta_{\mbox{\tiny init}}$ with respect to $T$ and determine
+      the obtained resolution on $\beta_{\mbox{\tiny T-calib}}$.
+    \item Using all information available, what is the best calibration of $\beta$ you can produce?
+  \end{itemize}
+\vspace*{-2ex}
+\end{description}
+
+
+%----------------------------------------------------------------------------
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
+
